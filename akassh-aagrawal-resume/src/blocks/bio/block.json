@@ -1,0 +1,37 @@
+{
+    "apiVersion": 2,
+    "name": "akassh/bio",
+    "title": "Bio Block",
+    "category": "widgets",
+    "icon": "id",
+    "description": "Intro with photo, title, links, and contacts.",
+    "editorScript": "file:../../index.js",
+    "style": "file:../../style.css",
+    "editorStyle": "file:../../index.css",
+    "attributes": {
+        "photo": {
+            "type": "object",
+            "default": {
+                "url": "",
+                "alt": "",
+                "title": ""
+            }
+        },
+        "name": {
+            "type": "string",
+            "default": "Akassh Aagrawal"
+        },
+        "title": {
+            "type": "string",
+            "default": "Senior WordPress Developer"
+        },
+        "socialLinks": {
+            "type": "array",
+            "default": []
+        },
+        "contactItems": {
+            "type": "array",
+            "default": []
+        }
+    }
+}

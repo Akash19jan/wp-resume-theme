@@ -1,0 +1,39 @@
+# Node dependencies
+node_modules/
+
+# Build artifacts
+/build/
+/dist/
+/*.asset.php
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+
+# Logs and system files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VS Code
+.vscode/
+
+# Local WordPress files (optional – only if your theme folder is within a WP site)
+wp-config.php
+wp-content/uploads/
+.env
+.env.local
+.env.*.local
+
+# Sass cache
+.sass-cache/
+
+# Tailwind output (if separate)
+tailwind.config.js
+postcss.config.js
+
+# Optional: lock file (if you're using only `npm`, and want to exclude yarn.lock)
+yarn.lock
+
+# Optional: ignore style.css if it's built via Sass
+# style.css

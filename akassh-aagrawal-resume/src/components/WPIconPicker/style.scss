@@ -1,0 +1,33 @@
+.wp-icon-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(32px, 1fr));
+	gap: 8px;
+	max-height: 200px;
+	overflow-y: auto;
+	padding: 4px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	background: #fff;
+}
+
+.wp-icon-cell {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 32px;
+	width: 32px;
+	cursor: pointer;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	transition: border-color 0.2s, background-color 0.2s;
+
+	&:hover {
+		background-color: #f0f0f0;
+		border-color: #007cba;
+	}
+
+	&.selected {
+		background-color: #e0f3ff;
+		border-color: #007cba;
+	}
+}
